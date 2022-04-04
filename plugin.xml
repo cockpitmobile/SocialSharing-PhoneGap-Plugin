@@ -41,6 +41,13 @@
       </feature>
     </config-file>
 
+    <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+      <string>This app needs to access the camera and photo storage to take pictures or access photos from your phone for finish line selfies and pit stop photos during your activities.</string>
+    </config-file>
+    <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+      <string>This app needs to access the camera and photo storage to take pictures or access photos from your phone for finish line selfies and pit stop photos during your activities.</string>
+    </config-file>
+
     <header-file src="src/ios/NSString+SSURLEncoding.h"/>
     <source-file src="src/ios/NSString+SSURLEncoding.m"/>
     <header-file src="src/ios/SocialSharing.h"/>
